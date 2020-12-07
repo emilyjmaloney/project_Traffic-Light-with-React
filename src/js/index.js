@@ -2,14 +2,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-//include bootstrap npm library into the bundle
-import "bootstrap/dist/css/bootstrap.css";
+// //include bootstrap npm library into the bundle
+// import "bootstrap/dist/css/bootstrap.css";
 
 //include your index.scss file into the bundle
 import "../styles/index.scss";
 
-//import your own components
-import Layout from "./layout";
+// // import your own components
+import TrafficLight from "./component/TrafficLight.jsx";
 
-//render your react application
-ReactDOM.render(<Layout />, document.querySelector("#app"));
+// //render your react application
+ReactDOM.render(<TrafficLight />, document.querySelector("#app"));
